@@ -1,5 +1,5 @@
-### Medthod Function
-# ReadFile
+# Medthod Function
+### ReadFile
   - Open file
     ```
     fopen( <path file> , <type open> )
