@@ -4,7 +4,7 @@
     ```
     fopen( <path file> , <type open> )
     ```
-    - <details>
+    <details>
       <summary>type open</summary>
 
       - r -> read only
@@ -15,8 +15,8 @@
       - a+ read and write append old data when not file will create a new file
       - x -> write by create a new file but if found file will return error
       - x+ -> read and write by create a new file but if found file will return error
-      
-      </details>
+
+    </details>
   - Read file
     ```
     fread( <path file> , <read file size> )
