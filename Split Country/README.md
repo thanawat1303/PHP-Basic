@@ -6,8 +6,8 @@
     ```
     - <details>
       <summary>type open</summary>
-      
-      ```
+
+      ```py
       r -> read only
       r+ -> read and write
       w -> write replace old data when not file will create a new file
