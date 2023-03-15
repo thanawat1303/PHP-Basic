@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+html , body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(120deg , yellow , orange , pink);
+    background-size: 500%;
+    animation: animeMove 5s alternate infinite;
+}
+
+@keyframes animeMove {
+    0% {
+        background-position: 0%;
+    } 
+    100% {
+        background-position: 100%;
+    }
+}
+
+.form-signup {
+    min-width: 300px;
+    max-width: 400px;
+    width: 50%;
+    position: fixed;
+    padding: 25px 20px;
+    background-color: rgba(194, 190, 190, 0.492);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
+}
+
+.form-signup p {
+    margin: 0px 0px 25px 0px;
+}
+
+.head-form{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(127, 0, 246);
+}
+
+.frameInput {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filedInput {
+    color: rgb(127, 0, 246);
+}
+
+.box-input {
+    width: 100%;
+    margin: 5px 10px;
+    border-radius: 10px;
+    border: 0px;
+    outline: 0px;
+    padding: 2px 5px;
+    font-size: 18px;
+}
+
+.genandday {
+    display: flex;
+    padding: 0px 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.gendar , .day {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 5px;
+    color: rgb(127, 0, 246);
+}
+
+.box-select , .box-day {
+    padding: 0px 8px;
+    margin: 2px 0px;
+}
+
+.box-select select , .box-day input {
+    border-radius: 5px;
+    font-size: 14px;
+    border: 0px;
+    outline: 0px;
+}
+
+.frame-sm {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.frame-sm button {
+    font-size: 18px;
+    color: rgb(127, 0, 246);
+    border-radius: 10px;
+    outline: 0px;
+    border: 0px;
+    padding: 3px 40px;
+    background-color: white;
+}
